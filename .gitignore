@@ -1,0 +1,12 @@
+tgg/.fabric
+tgg/java
+tgg/crash-reports
+tgg/defaultconfigs
+tgg/logs
+tgg/versions
+tgg/banned-ips.json
+tgg/banned-players.json
+tgg/whitelist.json
+tgg/usercache.json
+tgg/options.txt
+tgg/ops.json
