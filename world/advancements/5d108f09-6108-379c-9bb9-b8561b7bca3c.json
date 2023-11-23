@@ -3122,15 +3122,39 @@
     },
     "done": false
   },
-  "minecraft:recipes/building_blocks/stone_bricks": {
+  "minecraft:recipes/decorations/light_gray_bed": {
     "criteria": {
-      "has_stone": "2023-11-23 16:17:13 +0000"
+      "has_light_gray_wool": "2023-11-23 16:04:56 +0000"
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/magma_block": {
+  "minecraft:recipes/decorations/light_gray_banner": {
     "criteria": {
-      "has_magma_cream": "2023-11-23 16:29:04 +0000"
+      "has_light_gray_wool": "2023-11-23 16:04:56 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/light_gray_carpet": {
+    "criteria": {
+      "has_light_gray_wool": "2023-11-23 16:04:56 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/activator_rail": {
+    "criteria": {
+      "has_rail": "2023-11-23 16:07:13 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/detector_rail": {
+    "criteria": {
+      "has_rail": "2023-11-23 16:07:13 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/powered_rail": {
+    "criteria": {
+      "has_rail": "2023-11-23 16:07:13 +0000"
     },
     "done": true
   },
@@ -3140,33 +3164,21 @@
     },
     "done": true
   },
-  "minecraft:recipes/brewing/magma_cream": {
+  "minecraft:recipes/decorations/gray_carpet": {
     "criteria": {
-      "has_blaze_powder": "2023-11-23 16:29:05 +0000"
+      "has_gray_wool": "2023-11-23 16:15:41 +0000"
     },
     "done": true
   },
-  "minecraft:recipes/misc/netherite_scrap_from_blasting": {
+  "minecraft:recipes/decorations/gray_banner": {
     "criteria": {
-      "has_ancient_debris": "2023-11-23 16:36:38 +0000"
+      "has_gray_wool": "2023-11-23 16:15:41 +0000"
     },
     "done": true
   },
-  "backpacked:recipes/decorations/cherry_backpack_shelf": {
+  "minecraft:recipes/building_blocks/stone_bricks": {
     "criteria": {
-      "has_stick": "2023-11-23 16:39:29 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/end_crystal": {
-    "criteria": {
-      "has_ender_eye": "2023-11-23 16:28:19 +0000"
-    },
-    "done": true
-  },
-  "stellarity:story/strengthened_by_fire": {
-    "criteria": {
-      "criteria": "2023-11-23 16:28:19 +0000"
+      "has_stone": "2023-11-23 16:17:13 +0000"
     },
     "done": true
   },
@@ -3182,51 +3194,9 @@
     },
     "done": true
   },
-  "backpacked:recipes/decorations/oak_backpack_shelf": {
-    "criteria": {
-      "has_stick": "2023-11-23 16:39:29 +0000"
-    },
-    "done": true
-  },
-  "backpacked:recipes/decorations/dark_oak_backpack_shelf": {
-    "criteria": {
-      "has_stick": "2023-11-23 16:39:29 +0000"
-    },
-    "done": true
-  },
-  "backpacked:recipes/decorations/birch_backpack_shelf": {
-    "criteria": {
-      "has_stick": "2023-11-23 16:39:29 +0000"
-    },
-    "done": true
-  },
-  "mt:treasure_advancements/10_common_treasure": {
-    "criteria": {
-      "obtainchest": "2023-11-23 16:34:06 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/building_blocks/stone_stairs_from_stone_stonecutting": {
     "criteria": {
       "has_stone": "2023-11-23 16:17:13 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/netherite_scrap": {
-    "criteria": {
-      "has_ancient_debris": "2023-11-23 16:36:38 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/food/cooked_porkchop_from_campfire_cooking": {
-    "criteria": {
-      "has_porkchop": "2023-11-23 16:29:54 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/gray_carpet": {
-    "criteria": {
-      "has_gray_wool": "2023-11-23 16:15:41 +0000"
     },
     "done": true
   },
@@ -3248,45 +3218,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/misc/fire_charge": {
-    "criteria": {
-      "has_blaze_powder": "2023-11-23 16:29:05 +0000"
-    },
-    "done": true
-  },
-  "backpacked:recipes/decorations/spruce_backpack_shelf": {
-    "criteria": {
-      "has_stick": "2023-11-23 16:39:29 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/building_blocks/smooth_stone": {
     "criteria": {
       "has_stone": "2023-11-23 16:17:13 +0000"
-    },
-    "done": true
-  },
-  "minecraft:nether/obtain_ancient_debris": {
-    "criteria": {
-      "ancient_debris": "2023-11-23 16:36:38 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/warped_hyphae": {
-    "criteria": {
-      "has_log": "2023-11-23 16:27:34 +0000"
-    },
-    "done": true
-  },
-  "mt:treasure_advancements/first_rare_taiga_treasure": {
-    "criteria": {
-      "obtainchest": "2023-11-23 17:04:02 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/transportation/activator_rail": {
-    "criteria": {
-      "has_rail": "2023-11-23 16:07:13 +0000"
     },
     "done": true
   },
@@ -3296,27 +3230,9 @@
     },
     "done": true
   },
-  "backpacked:recipes/decorations/acacia_backpack_shelf": {
-    "criteria": {
-      "has_stick": "2023-11-23 16:39:29 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/building_blocks/stone_brick_slab_from_stone_stonecutting": {
     "criteria": {
       "has_stone": "2023-11-23 16:17:13 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/transportation/detector_rail": {
-    "criteria": {
-      "has_rail": "2023-11-23 16:07:13 +0000"
-    },
-    "done": true
-  },
-  "stellarity:recipes/slime_ball_from_ender_eye": {
-    "criteria": {
-      "has_item": "2023-11-23 16:28:19 +0000"
     },
     "done": true
   },
@@ -3326,15 +3242,75 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/stone_slab_from_stone_stonecutting": {
+    "criteria": {
+      "has_stone": "2023-11-23 16:17:13 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/chiseled_stone_bricks_stone_from_stonecutting": {
+    "criteria": {
+      "has_stone": "2023-11-23 16:17:13 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stone_stairs": {
+    "criteria": {
+      "has_stone": "2023-11-23 16:17:13 +0000"
+    },
+    "done": true
+  },
+  "stellarity:recipes/crying_obsidian_with_popped_chorus": {
+    "criteria": {
+      "has_item1": "2023-11-23 16:24:27 +0000"
+    },
+    "done": true
+  },
   "mt:treasure_advancements/first_common_warped_treasure": {
     "criteria": {
       "obtainchest": "2023-11-23 16:27:31 +0000"
     },
     "done": true
   },
-  "minecraft:recipes/food/cooked_porkchop": {
+  "minecraft:recipes/building_blocks/warped_hyphae": {
     "criteria": {
-      "has_porkchop": "2023-11-23 16:29:54 +0000"
+      "has_log": "2023-11-23 16:27:34 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/warped_planks": {
+    "criteria": {
+      "has_logs": "2023-11-23 16:27:34 +0000"
+    },
+    "done": true
+  },
+  "mt:treasure_advancements/first_rare_warped_treasure": {
+    "criteria": {
+      "obtainchest": "2023-11-23 16:28:17 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/end_crystal": {
+    "criteria": {
+      "has_ender_eye": "2023-11-23 16:28:19 +0000"
+    },
+    "done": true
+  },
+  "stellarity:story/strengthened_by_fire": {
+    "criteria": {
+      "criteria": "2023-11-23 16:28:19 +0000"
+    },
+    "done": true
+  },
+  "stellarity:recipes/slime_ball_from_ender_eye": {
+    "criteria": {
+      "has_item": "2023-11-23 16:28:19 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/ender_chest": {
+    "criteria": {
+      "has_ender_eye": "2023-11-23 16:28:19 +0000"
     },
     "done": true
   },
@@ -3344,27 +3320,21 @@
     },
     "done": true
   },
-  "minecraft:recipes/decorations/light_gray_bed": {
+  "minecraft:recipes/building_blocks/magma_block": {
     "criteria": {
-      "has_light_gray_wool": "2023-11-23 16:04:56 +0000"
+      "has_magma_cream": "2023-11-23 16:29:04 +0000"
     },
     "done": true
   },
-  "minecraft:recipes/food/rabbit_stew_from_brown_mushroom": {
+  "minecraft:recipes/brewing/magma_cream": {
     "criteria": {
-      "has_cooked_rabbit": "2023-11-23 17:04:04 +0000"
+      "has_blaze_powder": "2023-11-23 16:29:05 +0000"
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/stone_slab_from_stone_stonecutting": {
+  "minecraft:recipes/misc/fire_charge": {
     "criteria": {
-      "has_stone": "2023-11-23 16:17:13 +0000"
-    },
-    "done": true
-  },
-  "backpacked:recipes/decorations/jungle_backpack_shelf": {
-    "criteria": {
-      "has_stick": "2023-11-23 16:39:29 +0000"
+      "has_blaze_powder": "2023-11-23 16:29:05 +0000"
     },
     "done": true
   },
@@ -3380,15 +3350,87 @@
     },
     "done": true
   },
-  "mt:treasure_advancements/first_rare_warped_treasure": {
+  "minecraft:recipes/food/cooked_porkchop_from_campfire_cooking": {
     "criteria": {
-      "obtainchest": "2023-11-23 16:28:17 +0000"
+      "has_porkchop": "2023-11-23 16:29:54 +0000"
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/chiseled_stone_bricks_stone_from_stonecutting": {
+  "minecraft:recipes/food/cooked_porkchop": {
     "criteria": {
-      "has_stone": "2023-11-23 16:17:13 +0000"
+      "has_porkchop": "2023-11-23 16:29:54 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_porkchop_from_smoking": {
+    "criteria": {
+      "has_porkchop": "2023-11-23 16:29:54 +0000"
+    },
+    "done": true
+  },
+  "mt:treasure_advancements/10_common_treasure": {
+    "criteria": {
+      "obtainchest": "2023-11-23 16:34:06 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/netherite_scrap_from_blasting": {
+    "criteria": {
+      "has_ancient_debris": "2023-11-23 16:36:38 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/netherite_scrap": {
+    "criteria": {
+      "has_ancient_debris": "2023-11-23 16:36:38 +0000"
+    },
+    "done": true
+  },
+  "minecraft:nether/obtain_ancient_debris": {
+    "criteria": {
+      "ancient_debris": "2023-11-23 16:36:38 +0000"
+    },
+    "done": true
+  },
+  "backpacked:recipes/decorations/cherry_backpack_shelf": {
+    "criteria": {
+      "has_stick": "2023-11-23 16:39:29 +0000"
+    },
+    "done": true
+  },
+  "backpacked:recipes/decorations/oak_backpack_shelf": {
+    "criteria": {
+      "has_stick": "2023-11-23 16:39:29 +0000"
+    },
+    "done": true
+  },
+  "backpacked:recipes/decorations/dark_oak_backpack_shelf": {
+    "criteria": {
+      "has_stick": "2023-11-23 16:39:29 +0000"
+    },
+    "done": true
+  },
+  "backpacked:recipes/decorations/birch_backpack_shelf": {
+    "criteria": {
+      "has_stick": "2023-11-23 16:39:29 +0000"
+    },
+    "done": true
+  },
+  "backpacked:recipes/decorations/spruce_backpack_shelf": {
+    "criteria": {
+      "has_stick": "2023-11-23 16:39:29 +0000"
+    },
+    "done": true
+  },
+  "backpacked:recipes/decorations/acacia_backpack_shelf": {
+    "criteria": {
+      "has_stick": "2023-11-23 16:39:29 +0000"
+    },
+    "done": true
+  },
+  "backpacked:recipes/decorations/jungle_backpack_shelf": {
+    "criteria": {
+      "has_stick": "2023-11-23 16:39:29 +0000"
     },
     "done": true
   },
@@ -3404,63 +3446,21 @@
     },
     "done": true
   },
-  "minecraft:recipes/decorations/gray_banner": {
+  "mt:treasure_advancements/first_rare_taiga_treasure": {
     "criteria": {
-      "has_gray_wool": "2023-11-23 16:15:41 +0000"
+      "obtainchest": "2023-11-23 17:04:02 +0000"
     },
     "done": true
   },
-  "minecraft:recipes/decorations/light_gray_banner": {
+  "minecraft:recipes/food/rabbit_stew_from_brown_mushroom": {
     "criteria": {
-      "has_light_gray_wool": "2023-11-23 16:04:56 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/food/cooked_porkchop_from_smoking": {
-    "criteria": {
-      "has_porkchop": "2023-11-23 16:29:54 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/warped_planks": {
-    "criteria": {
-      "has_logs": "2023-11-23 16:27:34 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/light_gray_carpet": {
-    "criteria": {
-      "has_light_gray_wool": "2023-11-23 16:04:56 +0000"
+      "has_cooked_rabbit": "2023-11-23 17:04:04 +0000"
     },
     "done": true
   },
   "minecraft:recipes/food/rabbit_stew_from_red_mushroom": {
     "criteria": {
       "has_cooked_rabbit": "2023-11-23 17:04:04 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/ender_chest": {
-    "criteria": {
-      "has_ender_eye": "2023-11-23 16:28:19 +0000"
-    },
-    "done": true
-  },
-  "stellarity:recipes/crying_obsidian_with_popped_chorus": {
-    "criteria": {
-      "has_item1": "2023-11-23 16:24:27 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/transportation/powered_rail": {
-    "criteria": {
-      "has_rail": "2023-11-23 16:07:13 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/stone_stairs": {
-    "criteria": {
-      "has_stone": "2023-11-23 16:17:13 +0000"
     },
     "done": true
   },
