@@ -1,7 +1,10 @@
 #!/bin/bash
+# Start Tunnel
 killall ngrok
 ngrok tcp 25565 > /dev/null &
 playit > /dev/null &
+
+# Start Server
 bash 1.sh
 
 # get current branch and push
