@@ -1,9 +1,8 @@
-cd tgg
+#!/bin/bash
 killall ngrok
 ngrok tcp 25565 > /dev/null &
 playit > /dev/null &
 bash 1.sh
-#!/bin/bash
 
 # get current branch and push
 current_branch=$(git branch | sed -n -e 's/^\* \(.*\)/\1/p')
