@@ -634,7 +634,9 @@
     "criteria": {
       "bread": "2023-11-17 16:40:09 +0000",
       "golden_apple": "2023-11-22 07:37:47 +0000",
+      "suspicious_stew": "2023-11-24 08:39:54 +0000",
       "glow_berries": "2023-11-18 14:53:22 +0000",
+      "mushroom_stew": "2023-11-24 08:39:47 +0000",
       "rabbit_stew": "2023-11-17 16:30:02 +0000"
     },
     "done": false
@@ -3461,6 +3463,12 @@
   "minecraft:recipes/food/rabbit_stew_from_red_mushroom": {
     "criteria": {
       "has_cooked_rabbit": "2023-11-23 17:04:04 +0000"
+    },
+    "done": true
+  },
+  "mt:treasure_advancements/first_common_taiga_treasure": {
+    "criteria": {
+      "obtainchest": "2023-11-24 08:35:44 +0000"
     },
     "done": true
   },
