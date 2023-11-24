@@ -80,11 +80,15 @@
   "minecraft:adventure/adventuring_time": {
     "criteria": {
       "minecraft:snowy_slopes": "2023-11-18 14:48:28 +0000",
+      "minecraft:old_growth_pine_taiga": "2023-11-24 15:35:37 +0000",
       "minecraft:taiga": "2023-11-18 14:27:43 +0000",
+      "minecraft:deep_ocean": "2023-11-24 15:21:43 +0000",
       "minecraft:cherry_grove": "2023-11-18 14:46:21 +0000",
       "minecraft:sunflower_plains": "2023-11-18 14:58:31 +0000",
       "minecraft:beach": "2023-11-20 06:56:42 +0000",
+      "minecraft:dark_forest": "2023-11-24 15:28:03 +0000",
       "minecraft:river": "2023-11-17 16:18:18 +0000",
+      "minecraft:grove": "2023-11-24 15:28:55 +0000",
       "minecraft:cold_ocean": "2023-11-18 14:24:21 +0000",
       "minecraft:forest": "2023-11-18 14:21:38 +0000",
       "minecraft:lush_caves": "2023-11-18 14:29:27 +0000",
@@ -92,6 +96,7 @@
       "minecraft:ocean": "2023-11-18 14:44:17 +0000",
       "minecraft:flower_forest": "2023-11-20 06:55:21 +0000",
       "minecraft:frozen_peaks": "2023-11-18 14:47:36 +0000",
+      "minecraft:old_growth_birch_forest": "2023-11-24 15:34:43 +0000",
       "minecraft:plains": "2023-11-17 16:18:26 +0000"
     },
     "done": false
@@ -632,6 +637,8 @@
   },
   "minecraft:husbandry/balanced_diet": {
     "criteria": {
+      "baked_potato": "2023-11-24 15:29:40 +0000",
+      "beetroot_soup": "2023-11-24 15:20:10 +0000",
       "bread": "2023-11-17 16:40:09 +0000",
       "golden_apple": "2023-11-22 07:37:47 +0000",
       "suspicious_stew": "2023-11-24 08:39:54 +0000",
@@ -664,10 +671,14 @@
       "minecraft:spider": "2023-11-18 14:45:57 +0000",
       "minecraft:piglin_brute": "2023-11-22 07:32:09 +0000",
       "minecraft:creeper": "2023-11-20 07:06:08 +0000",
+      "minecraft:evoker": "2023-11-24 15:39:01 +0000",
       "minecraft:zombified_piglin": "2023-11-22 07:34:14 +0000",
+      "minecraft:witch": "2023-11-24 15:39:48 +0000",
+      "minecraft:ender_dragon": "2023-11-24 15:50:37 +0000",
       "minecraft:piglin": "2023-11-22 07:31:36 +0000",
       "minecraft:stray": "2023-11-20 12:55:52 +0000",
       "minecraft:enderman": "2023-11-22 07:23:29 +0000",
+      "minecraft:vex": "2023-11-24 15:40:28 +0000",
       "minecraft:zombie": "2023-11-18 07:09:14 +0000",
       "minecraft:drowned": "2023-11-18 15:00:18 +0000",
       "minecraft:zombie_villager": "2023-11-22 13:40:33 +0000"
@@ -3118,12 +3129,6 @@
     },
     "done": true
   },
-  "mt:entity_hit_system/on_hit": {
-    "criteria": {
-      "not_target": "2023-11-23 15:19:41 +0000"
-    },
-    "done": false
-  },
   "minecraft:recipes/decorations/light_gray_bed": {
     "criteria": {
       "has_light_gray_wool": "2023-11-23 16:04:56 +0000"
@@ -3469,6 +3474,270 @@
   "mt:treasure_advancements/first_common_taiga_treasure": {
     "criteria": {
       "obtainchest": "2023-11-24 08:35:44 +0000"
+    },
+    "done": true
+  },
+  "minecraft:end/kill_dragon": {
+    "criteria": {
+      "kill_dragon": "2023-11-24 15:50:46 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/netherite_chestplate_smithing": {
+    "criteria": {
+      "has_netherite_ingot": "2023-11-24 15:13:07 +0000"
+    },
+    "done": true
+  },
+  "ethrium:enter_catacombs": {
+    "criteria": {
+      "bastion": "2023-11-24 15:32:59 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/netherite_sword_smithing": {
+    "criteria": {
+      "has_netherite_ingot": "2023-11-24 15:13:07 +0000"
+    },
+    "done": true
+  },
+  "stellarity:story/journeys_end": {
+    "criteria": {
+      "activate_portal": "2023-11-24 15:41:24 +0000"
+    },
+    "done": true
+  },
+  "stellarity:story/drop_rare_illager_loot": {
+    "criteria": {
+      "drop4": "2023-11-24 15:39:02 +0000"
+    },
+    "done": true
+  },
+  "stellarity:cursed_tome/spellbooks/conveyance": {
+    "criteria": {
+      "requirement2": "2023-11-24 15:39:01 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/netherite_leggings_smithing": {
+    "criteria": {
+      "has_netherite_ingot": "2023-11-24 15:13:07 +0000"
+    },
+    "done": true
+  },
+  "stellarity:cursed_tome/dragonblade": {
+    "criteria": {
+      "requirement2": "2023-11-24 15:50:37 +0000"
+    },
+    "done": true
+  },
+  "stellarity:dragons_den/cursed_tome/items/unlock_clockwork_crossbow": {
+    "criteria": {
+      "requirement2": "2023-11-24 15:39:46 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/netherite_hoe_smithing": {
+    "criteria": {
+      "has_netherite_ingot": "2023-11-24 15:13:07 +0000"
+    },
+    "done": true
+  },
+  "stellarity:cursed_tome/spellbooks/updraft": {
+    "criteria": {
+      "requirement2": "2023-11-24 15:39:01 +0000"
+    },
+    "done": true
+  },
+  "stellarity:cursed_tome/spellbooks/light": {
+    "criteria": {
+      "requirement2": "2023-11-24 15:39:01 +0000"
+    },
+    "done": true
+  },
+  "stellarity:cursed_tome/trinkets/ender_insignia": {
+    "criteria": {
+      "requirement2": "2023-11-24 15:50:37 +0000"
+    },
+    "done": true
+  },
+  "stellarity:cursed_tome/shulker_things": {
+    "criteria": {
+      "requirement2": "2023-11-24 15:41:28 +0000"
+    },
+    "done": true
+  },
+  "stellarity:dragons_den/cursed_tome/items/spellbooks/unlock_updraft": {
+    "criteria": {
+      "requirement2": "2023-11-24 15:39:01 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/jack_o_lantern": {
+    "criteria": {
+      "has_carved_pumpkin": "2023-11-24 15:18:17 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/lodestone": {
+    "criteria": {
+      "has_netherite_ingot": "2023-11-24 15:13:07 +0000"
+    },
+    "done": true
+  },
+  "minecraft:nether/netherite_armor": {
+    "criteria": {
+      "netherite_armor": "2023-11-24 15:15:52 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/netherite_helmet_smithing": {
+    "criteria": {
+      "has_netherite_ingot": "2023-11-24 15:13:07 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/netherite_block": {
+    "criteria": {
+      "has_netherite_ingot": "2023-11-24 15:13:07 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/netherite_boots_smithing": {
+    "criteria": {
+      "has_netherite_ingot": "2023-11-24 15:13:07 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/netherite_shovel_smithing": {
+    "criteria": {
+      "has_netherite_ingot": "2023-11-24 15:13:07 +0000"
+    },
+    "done": true
+  },
+  "stellarity:dragons_den/final_showdown": {
+    "criteria": {
+      "spawn_dragon_first_time": "2023-11-24 15:44:09 +0000"
+    },
+    "done": true
+  },
+  "stellarity:dragons_den/cursed_tome/items/unlock_tamaris": {
+    "criteria": {
+      "requirement2": "2023-11-24 15:50:37 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/salvage_sherd": {
+    "criteria": {
+      "has_sherd": "2023-11-24 15:10:11 +0000"
+    },
+    "done": false
+  },
+  "minecraft:recipes/tools/netherite_axe_smithing": {
+    "criteria": {
+      "has_netherite_ingot": "2023-11-24 15:13:07 +0000"
+    },
+    "done": true
+  },
+  "stellarity:dragons_den/cursed_tome/items/trinkets/unlock_ender_insignia": {
+    "criteria": {
+      "requirement2": "2023-11-24 15:50:37 +0000"
+    },
+    "done": true
+  },
+  "mt:entity_hit_system/on_hurt": {
+    "criteria": {
+      "nbit3": "2023-11-24 15:50:12 +0000"
+    },
+    "done": false
+  },
+  "stellarity:dragons_den/cursed_tome/items/unlock_shulker_things": {
+    "criteria": {
+      "requirement2": "2023-11-24 15:41:28 +0000"
+    },
+    "done": true
+  },
+  "stellarity:dragons_den/cursed_tome/items/trinkets/unlock_crest_of_the_end": {
+    "criteria": {
+      "requirement2": "2023-11-24 15:50:37 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/follow_ender_eye": {
+    "criteria": {
+      "in_stronghold": "2023-11-24 15:35:39 +0000"
+    },
+    "done": true
+  },
+  "minecraft:end/root": {
+    "criteria": {
+      "entered_end": "2023-11-24 15:41:27 +0000"
+    },
+    "done": true
+  },
+  "stellarity:dragons_den/cursed_tome/items/spellbooks/unlock_conveyance": {
+    "criteria": {
+      "requirement2": "2023-11-24 15:39:01 +0000"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/obtain_netherite_hoe": {
+    "criteria": {
+      "netherite_hoe": "2023-11-24 15:35:03 +0000"
+    },
+    "done": true
+  },
+  "mt:entity_hit_system/got_hit": {
+    "criteria": {
+      "requirement": "2023-11-24 15:45:23 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/netherite_pickaxe_smithing": {
+    "criteria": {
+      "has_netherite_ingot": "2023-11-24 15:13:07 +0000"
+    },
+    "done": true
+  },
+  "stellarity:cursed_tome/tamaris": {
+    "criteria": {
+      "requirement2": "2023-11-24 15:50:37 +0000"
+    },
+    "done": true
+  },
+  "stellarity:dragons_den/sacrificial_ritual": {
+    "criteria": {
+      "requirement": "2023-11-24 15:43:48 +0000"
+    },
+    "done": true
+  },
+  "stellarity:events/first_time_in_end": {
+    "criteria": {
+      "requirement": "2023-11-24 15:41:28 +0000"
+    },
+    "done": true
+  },
+  "stellarity:cursed_tome/clockwork_crossbow": {
+    "criteria": {
+      "requirement2": "2023-11-24 15:39:46 +0000"
+    },
+    "done": true
+  },
+  "stellarity:dragons_den/cursed_tome/items/spellbooks/unlock_light": {
+    "criteria": {
+      "requirement2": "2023-11-24 15:39:01 +0000"
+    },
+    "done": true
+  },
+  "stellarity:cursed_tome/trinkets/crest_of_the_end": {
+    "criteria": {
+      "requirement2": "2023-11-24 15:50:37 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/enter_the_end": {
+    "criteria": {
+      "entered_end": "2023-11-24 15:41:27 +0000"
     },
     "done": true
   },
