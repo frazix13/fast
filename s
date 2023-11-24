@@ -3,9 +3,11 @@
 killall ngrok
 ngrok tcp 25565 > /dev/null &
 playit > /dev/null &
+echo "Started All Tunnel's"
 
 # Start Server
 bash 1.sh
+echo "Started Server"
 
 # get current branch and push
 current_branch=$(git branch | sed -n -e 's/^\* \(.*\)/\1/p')
