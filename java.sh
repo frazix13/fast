@@ -2,6 +2,8 @@ wget https://download.oracle.com/graalvm/17/latest/graalvm-jdk-17_linux-x64_bin.
 tar -xvzf graalvm-jdk-17_linux-x64_bin.tar.gz
 cd && cd /workspaces/fast
 rm -rf graalvm-jdk-17_linux-x64_bin.tar.gz
+cp -r graalvm-jdk-17.0.9+11.1 java
+rm -rf graalvm-jdk-17.0.9+11.1
 clear
 wget https://bin.equinox.io/c/bNyj1mQVY4c/ngrok-v3-stable-linux-amd64.tgz
 sudo tar xvzf ./ngrok-v3-stable-linux-amd64.tgz -C /usr/local/bin
@@ -12,4 +14,6 @@ curl -SsL https://playit-cloud.github.io/ppa/key.gpg | gpg --dearmor | sudo tee 
 echo "deb [signed-by=/etc/apt/trusted.gpg.d/playit.gpg] https://playit-cloud.github.io/ppa/data ./" | sudo tee /etc/apt/sources.list.d/playit-cloud.list
 sudo apt update
 sudo apt install playit -y
+sudo cp ./s /usr/bin
+sudo chmod +x /usr/bin/s
 clear
