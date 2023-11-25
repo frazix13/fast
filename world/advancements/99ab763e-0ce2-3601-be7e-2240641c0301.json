@@ -263,6 +263,7 @@
       "bread": "2023-11-18 14:23:42 +0000",
       "rotten_flesh": "2023-11-20 06:50:17 +0000",
       "glow_berries": "2023-11-18 14:59:37 +0000",
+      "cooked_rabbit": "2023-11-25 14:48:49 +0000",
       "cooked_chicken": "2023-11-22 07:56:44 +0000",
       "cod": "2023-11-17 16:39:18 +0000"
     },
@@ -1955,9 +1956,21 @@
     },
     "done": true
   },
-  "minecraft:end/kill_dragon": {
+  "minecraft:end/root": {
     "criteria": {
-      "kill_dragon": "2023-11-24 15:50:46 +0000"
+      "entered_end": "2023-11-24 15:41:40 +0000"
+    },
+    "done": true
+  },
+  "stellarity:events/first_time_in_end": {
+    "criteria": {
+      "requirement": "2023-11-24 15:41:40 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/enter_the_end": {
+    "criteria": {
+      "entered_end": "2023-11-24 15:41:40 +0000"
     },
     "done": true
   },
@@ -1973,15 +1986,51 @@
     },
     "done": true
   },
-  "backpacked:recipes/decorations/cherry_backpack_shelf": {
+  "minecraft:recipes/building_blocks/oak_stairs": {
     "criteria": {
-      "has_stick": "2023-11-24 15:43:25 +0000"
+      "has_planks": "2023-11-24 15:42:58 +0000"
     },
     "done": true
   },
-  "minecraft:recipes/decorations/end_crystal": {
+  "minecraft:recipes/decorations/oak_fence": {
     "criteria": {
-      "has_the_recipe": "2023-11-24 15:50:46 +0000"
+      "has_planks": "2023-11-24 15:42:58 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/oak_button": {
+    "criteria": {
+      "has_planks": "2023-11-24 15:42:58 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/oak_slab": {
+    "criteria": {
+      "has_planks": "2023-11-24 15:42:58 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/oak_fence_gate": {
+    "criteria": {
+      "has_planks": "2023-11-24 15:42:58 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/oak_pressure_plate": {
+    "criteria": {
+      "has_planks": "2023-11-24 15:42:58 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/oak_door": {
+    "criteria": {
+      "has_planks": "2023-11-24 15:42:58 +0000"
+    },
+    "done": true
+  },
+  "backpacked:recipes/decorations/cherry_backpack_shelf": {
+    "criteria": {
+      "has_stick": "2023-11-24 15:43:25 +0000"
     },
     "done": true
   },
@@ -2003,27 +2052,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/oak_stairs": {
-    "criteria": {
-      "has_planks": "2023-11-24 15:42:58 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/oak_fence": {
-    "criteria": {
-      "has_planks": "2023-11-24 15:42:58 +0000"
-    },
-    "done": true
-  },
   "backpacked:recipes/decorations/spruce_backpack_shelf": {
     "criteria": {
       "has_stick": "2023-11-24 15:43:25 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/redstone/oak_button": {
-    "criteria": {
-      "has_planks": "2023-11-24 15:42:58 +0000"
     },
     "done": true
   },
@@ -2033,53 +2064,11 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/oak_slab": {
-    "criteria": {
-      "has_planks": "2023-11-24 15:42:58 +0000"
-    },
-    "done": true
-  },
   "backpacked:recipes/decorations/jungle_backpack_shelf": {
     "criteria": {
       "has_stick": "2023-11-24 15:43:25 +0000"
     },
     "done": true
-  },
-  "minecraft:recipes/redstone/oak_fence_gate": {
-    "criteria": {
-      "has_planks": "2023-11-24 15:42:58 +0000"
-    },
-    "done": true
-  },
-  "stellarity:dragons_den/final_showdown": {
-    "criteria": {
-      "spawn_dragon_first_time": "2023-11-24 15:44:09 +0000"
-    },
-    "done": true
-  },
-  "stellarity:dragons_den/cursed_tome/items/unlock_tamaris": {
-    "criteria": {
-      "requirement": "2023-11-24 15:51:05 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/redstone/oak_pressure_plate": {
-    "criteria": {
-      "has_planks": "2023-11-24 15:42:58 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/redstone/oak_door": {
-    "criteria": {
-      "has_planks": "2023-11-24 15:42:58 +0000"
-    },
-    "done": true
-  },
-  "mt:entity_hit_system/on_hurt": {
-    "criteria": {
-      "nbit3": "2023-11-24 15:52:01 +0000"
-    },
-    "done": false
   },
   "backpacked:recipes/decorations/warped_backpack_shelf": {
     "criteria": {
@@ -2093,15 +2082,33 @@
     },
     "done": true
   },
-  "stellarity:dragons_den/cursed_tome/items/trinkets/unlock_crest_of_the_end": {
+  "stellarity:dragons_den/final_showdown": {
+    "criteria": {
+      "spawn_dragon_first_time": "2023-11-24 15:44:09 +0000"
+    },
+    "done": true
+  },
+  "minecraft:end/kill_dragon": {
+    "criteria": {
+      "kill_dragon": "2023-11-24 15:50:46 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/end_crystal": {
+    "criteria": {
+      "has_the_recipe": "2023-11-24 15:50:46 +0000"
+    },
+    "done": true
+  },
+  "stellarity:dragons_den/cursed_tome/items/unlock_tamaris": {
     "criteria": {
       "requirement": "2023-11-24 15:51:05 +0000"
     },
     "done": true
   },
-  "minecraft:end/root": {
+  "stellarity:dragons_den/cursed_tome/items/trinkets/unlock_crest_of_the_end": {
     "criteria": {
-      "entered_end": "2023-11-24 15:41:40 +0000"
+      "requirement": "2023-11-24 15:51:05 +0000"
     },
     "done": true
   },
@@ -2111,21 +2118,171 @@
     },
     "done": true
   },
-  "stellarity:events/first_time_in_end": {
-    "criteria": {
-      "requirement": "2023-11-24 15:41:40 +0000"
-    },
-    "done": true
-  },
   "stellarity:cursed_tome/trinkets/crest_of_the_end": {
     "criteria": {
       "requirement": "2023-11-24 15:51:05 +0000"
     },
     "done": true
   },
-  "minecraft:story/enter_the_end": {
+  "stellarity:adventure/anger_enderman": {
     "criteria": {
-      "entered_end": "2023-11-24 15:41:40 +0000"
+      "anger_enderman": "2023-11-25 14:36:19 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/rabbit_stew_from_brown_mushroom": {
+    "criteria": {
+      "has_cooked_rabbit": "2023-11-25 14:48:44 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/rabbit_stew_from_red_mushroom": {
+    "criteria": {
+      "has_cooked_rabbit": "2023-11-25 14:48:44 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/paper": {
+    "criteria": {
+      "has_reeds": "2023-11-25 14:49:33 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/sugar_from_sugar_cane": {
+    "criteria": {
+      "has_sugar_cane": "2023-11-25 14:49:33 +0000"
+    },
+    "done": true
+  },
+  "mt:treasure_advancements/first_common_warped_treasure": {
+    "criteria": {
+      "obtainchest": "2023-11-25 14:55:27 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/nether_brick": {
+    "criteria": {
+      "has_netherrack": "2023-11-25 14:57:52 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/netherite_scrap_from_blasting": {
+    "criteria": {
+      "has_ancient_debris": "2023-11-25 14:58:22 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/netherite_scrap": {
+    "criteria": {
+      "has_ancient_debris": "2023-11-25 14:58:22 +0000"
+    },
+    "done": true
+  },
+  "minecraft:nether/obtain_ancient_debris": {
+    "criteria": {
+      "ancient_debris": "2023-11-25 14:58:22 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/enchant_item": {
+    "criteria": {
+      "enchanted_item": "2023-11-25 15:08:18 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/coarse_dirt": {
+    "criteria": {
+      "has_gravel": "2023-11-25 15:15:33 +0000"
+    },
+    "done": true
+  },
+  "mt:treasure_advancements/first_epic_treasure": {
+    "criteria": {
+      "obtainchest": "2023-11-25 15:18:36 +0000"
+    },
+    "done": true
+  },
+  "mt:treasure_advancements/first_epic_default_treasure": {
+    "criteria": {
+      "obtainchest": "2023-11-25 15:18:41 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/granite_slab_from_granite_stonecutting": {
+    "criteria": {
+      "has_granite": "2023-11-25 15:28:24 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/granite_wall_from_granite_stonecutting": {
+    "criteria": {
+      "has_granite": "2023-11-25 15:28:24 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_granite_from_granite_stonecutting": {
+    "criteria": {
+      "has_granite": "2023-11-25 15:28:24 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/granite_slab": {
+    "criteria": {
+      "has_granite": "2023-11-25 15:28:24 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/granite_stairs": {
+    "criteria": {
+      "has_granite": "2023-11-25 15:28:24 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/granite_stairs_from_granite_stonecutting": {
+    "criteria": {
+      "has_granite": "2023-11-25 15:28:24 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/granite_wall": {
+    "criteria": {
+      "has_granite": "2023-11-25 15:28:24 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_granite_slab_from_granite_stonecutting": {
+    "criteria": {
+      "has_granite": "2023-11-25 15:28:24 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_granite": {
+    "criteria": {
+      "has_granite": "2023-11-25 15:28:24 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_granite_stairs_from_granite_stonecutting": {
+    "criteria": {
+      "has_granite": "2023-11-25 15:28:24 +0000"
+    },
+    "done": true
+  },
+  "mt:treasure_advancements/10_common_treasure": {
+    "criteria": {
+      "obtainchest": "2023-11-25 15:55:12 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dark_oak_planks": {
+    "criteria": {
+      "has_log": "2023-11-25 16:20:47 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dark_oak_wood": {
+    "criteria": {
+      "has_log": "2023-11-25 16:20:47 +0000"
     },
     "done": true
   },

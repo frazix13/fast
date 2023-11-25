@@ -94,6 +94,8 @@
       "minecraft:lush_caves": "2023-11-18 14:29:27 +0000",
       "minecraft:deep_cold_ocean": "2023-11-18 14:24:39 +0000",
       "minecraft:ocean": "2023-11-18 14:44:17 +0000",
+      "minecraft:jungle": "2023-11-25 16:18:46 +0000",
+      "minecraft:old_growth_spruce_taiga": "2023-11-25 16:18:42 +0000",
       "minecraft:flower_forest": "2023-11-20 06:55:21 +0000",
       "minecraft:frozen_peaks": "2023-11-18 14:47:36 +0000",
       "minecraft:old_growth_birch_forest": "2023-11-24 15:34:43 +0000",
@@ -637,12 +639,15 @@
   },
   "minecraft:husbandry/balanced_diet": {
     "criteria": {
+      "cooked_mutton": "2023-11-25 15:58:58 +0000",
       "baked_potato": "2023-11-24 15:29:40 +0000",
       "beetroot_soup": "2023-11-24 15:20:10 +0000",
       "bread": "2023-11-17 16:40:09 +0000",
       "golden_apple": "2023-11-22 07:37:47 +0000",
       "suspicious_stew": "2023-11-24 08:39:54 +0000",
       "glow_berries": "2023-11-18 14:53:22 +0000",
+      "golden_carrot": "2023-11-25 14:48:12 +0000",
+      "cooked_rabbit": "2023-11-25 15:10:52 +0000",
       "mushroom_stew": "2023-11-24 08:39:47 +0000",
       "rabbit_stew": "2023-11-17 16:30:02 +0000"
     },
@@ -3690,12 +3695,6 @@
     },
     "done": true
   },
-  "mt:entity_hit_system/on_hurt": {
-    "criteria": {
-      "nbit4": "2023-11-25 14:15:34 +0000"
-    },
-    "done": false
-  },
   "stellarity:cursed_tome/dragonblade": {
     "criteria": {
       "requirement2": "2023-11-24 15:50:37 +0000"
@@ -3744,135 +3743,9 @@
     },
     "done": true
   },
-  "minecraft:nether/obtain_crying_obsidian": {
-    "criteria": {
-      "crying_obsidian": "2023-11-25 13:58:10 +0000"
-    },
-    "done": true
-  },
-  "stellarity:cursed_tome/ancient_armor": {
-    "criteria": {
-      "requirement3": "2023-11-25 14:06:31 +0000"
-    },
-    "done": true
-  },
-  "stellarity:cursed_tome/spirit_dagger": {
-    "criteria": {
-      "requirement2": "2023-11-25 14:12:37 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/end_stone_brick_slab_from_end_stone_stonecutting": {
-    "criteria": {
-      "has_end_stone": "2023-11-25 14:02:09 +0000"
-    },
-    "done": true
-  },
-  "stellarity:dragons_den/cursed_tome/items/unlock_zephyr": {
-    "criteria": {
-      "requirement": "2023-11-25 14:06:31 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/end_stone_bricks": {
-    "criteria": {
-      "has_end_stone": "2023-11-25 14:02:09 +0000"
-    },
-    "done": true
-  },
-  "stellarity:end_city/treasure_room": {
-    "criteria": {
-      "obtain_head": "2023-11-25 14:14:04 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/nether_wart_block": {
-    "criteria": {
-      "has_nether_wart": "2023-11-25 13:58:01 +0000"
-    },
-    "done": true
-  },
-  "stellarity:end_city/whos_the_thief_now": {
-    "criteria": {
-      "open_chest_1": "2023-11-25 14:07:16 +0000"
-    },
-    "done": true
-  },
-  "stellarity:end_city/defeat_shulker": {
-    "criteria": {
-      "defeat_shulkers": "2023-11-25 14:06:42 +0000"
-    },
-    "done": true
-  },
-  "stellarity:dragons_den/cursed_tome/items/unlock_ancient_armor": {
-    "criteria": {
-      "requirement3": "2023-11-25 14:06:31 +0000"
-    },
-    "done": true
-  },
-  "minecraft:end/dragon_breath": {
-    "criteria": {
-      "dragon_breath": "2023-11-25 14:03:46 +0000"
-    },
-    "done": true
-  },
-  "stellarity:end_city/headhunter": {
-    "criteria": {
-      "47": "2023-11-25 14:14:04 +0000"
-    },
-    "done": false
-  },
-  "stellarity:adventure/kill_large_phantom": {
-    "criteria": {
-      "size_doesnt_matter": "2023-11-25 14:12:37 +0000"
-    },
-    "done": true
-  },
   "stellarity:dragons_den/cursed_tome/items/unlock_sharanga": {
     "criteria": {
       "requirement2": "2023-11-25 13:57:31 +0000"
-    },
-    "done": true
-  },
-  "stellarity:recipes/purple_dye_from_chorus_fruit": {
-    "criteria": {
-      "has_item": "2023-11-25 14:03:26 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/red_nether_bricks": {
-    "criteria": {
-      "has_nether_wart": "2023-11-25 13:58:01 +0000"
-    },
-    "done": true
-  },
-  "stellarity:cursed_tome/hallowed_armor": {
-    "criteria": {
-      "requirement3": "2023-11-25 14:06:31 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/popped_chorus_fruit": {
-    "criteria": {
-      "has_chorus_fruit": "2023-11-25 14:03:26 +0000"
-    },
-    "done": true
-  },
-  "mt:treasure_advancements/first_common_end_treasure": {
-    "criteria": {
-      "obtainchest": "2023-11-25 14:03:22 +0000"
-    },
-    "done": true
-  },
-  "stellarity:recipes/chorus_plant_from_fruit": {
-    "criteria": {
-      "has_item": "2023-11-25 14:03:26 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/spire_armor_trim_smithing_template": {
-    "criteria": {
-      "has_spire_armor_trim_smithing_template": "2023-11-25 14:07:19 +0000"
     },
     "done": true
   },
@@ -3882,94 +3755,45 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/nether_wart_block": {
+    "criteria": {
+      "has_nether_wart": "2023-11-25 13:58:01 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/red_nether_bricks": {
+    "criteria": {
+      "has_nether_wart": "2023-11-25 13:58:01 +0000"
+    },
+    "done": true
+  },
+  "minecraft:nether/obtain_crying_obsidian": {
+    "criteria": {
+      "crying_obsidian": "2023-11-25 13:58:10 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/respawn_anchor": {
     "criteria": {
       "has_obsidian": "2023-11-25 13:58:10 +0000"
     },
     "done": true
   },
-  "stellarity:exploration/ender_adventurer": {
+  "minecraft:recipes/building_blocks/end_stone_brick_slab_from_end_stone_stonecutting": {
     "criteria": {
-      "end_wilds": "2023-11-25 14:06:18 +0000",
-      "end_highlands": "2023-11-25 14:06:07 +0000"
-    },
-    "done": false
-  },
-  "stellarity:adventure/night_sky_stalkers": {
-    "criteria": {
-      "sleep_deprivation": "2023-11-25 14:12:37 +0000"
+      "has_end_stone": "2023-11-25 14:02:09 +0000"
     },
     "done": true
   },
-  "stellarity:cursed_tome/pandoras_barrel": {
+  "minecraft:recipes/building_blocks/end_stone_bricks": {
     "criteria": {
-      "requirement2": "2023-11-25 14:06:31 +0000"
-    },
-    "done": true
-  },
-  "minecraft:end/find_end_city": {
-    "criteria": {
-      "in_city": "2023-11-25 14:06:31 +0000"
-    },
-    "done": true
-  },
-  "minecraft:end/enter_end_gateway": {
-    "criteria": {
-      "entered_end_gateway": "2023-11-25 14:05:31 +0000"
+      "has_end_stone": "2023-11-25 14:02:09 +0000"
     },
     "done": true
   },
   "minecraft:recipes/decorations/end_stone_brick_wall_from_end_stone_stonecutting": {
     "criteria": {
       "has_end_stone": "2023-11-25 14:02:09 +0000"
-    },
-    "done": true
-  },
-  "stellarity:recipes/leather_from_membranes": {
-    "criteria": {
-      "has_item": "2023-11-25 14:03:26 +0000"
-    },
-    "done": true
-  },
-  "minecraft:end/elytra": {
-    "criteria": {
-      "elytra": "2023-11-25 14:14:08 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/spire_armor_trim_smithing_template_smithing_trim": {
-    "criteria": {
-      "has_smithing_trim_template": "2023-11-25 14:07:19 +0000"
-    },
-    "done": true
-  },
-  "stellarity:dragons_den/cursed_tome/items/unlock_pandoras_barrel": {
-    "criteria": {
-      "requirement2": "2023-11-25 14:06:31 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/glowstone": {
-    "criteria": {
-      "has_glowstone_dust": "2023-11-25 14:14:12 +0000"
-    },
-    "done": true
-  },
-  "stellarity:cursed_tome/zephyr": {
-    "criteria": {
-      "requirement": "2023-11-25 14:06:31 +0000"
-    },
-    "done": true
-  },
-  "stellarity:dragons_den/cursed_tome/items/unlock_hallowed_armor": {
-    "criteria": {
-      "requirement3": "2023-11-25 14:06:31 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/combat/spectral_arrow": {
-    "criteria": {
-      "has_glowstone_dust": "2023-11-25 14:14:12 +0000"
     },
     "done": true
   },
@@ -3991,9 +3815,160 @@
     },
     "done": true
   },
+  "mt:treasure_advancements/first_common_end_treasure": {
+    "criteria": {
+      "obtainchest": "2023-11-25 14:03:22 +0000"
+    },
+    "done": true
+  },
+  "stellarity:recipes/purple_dye_from_chorus_fruit": {
+    "criteria": {
+      "has_item": "2023-11-25 14:03:26 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/popped_chorus_fruit": {
+    "criteria": {
+      "has_chorus_fruit": "2023-11-25 14:03:26 +0000"
+    },
+    "done": true
+  },
+  "stellarity:recipes/chorus_plant_from_fruit": {
+    "criteria": {
+      "has_item": "2023-11-25 14:03:26 +0000"
+    },
+    "done": true
+  },
+  "stellarity:recipes/leather_from_membranes": {
+    "criteria": {
+      "has_item": "2023-11-25 14:03:26 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/shulker_box": {
     "criteria": {
       "has_shulker_shell": "2023-11-25 14:03:26 +0000"
+    },
+    "done": true
+  },
+  "minecraft:end/dragon_breath": {
+    "criteria": {
+      "dragon_breath": "2023-11-25 14:03:46 +0000"
+    },
+    "done": true
+  },
+  "minecraft:end/enter_end_gateway": {
+    "criteria": {
+      "entered_end_gateway": "2023-11-25 14:05:31 +0000"
+    },
+    "done": true
+  },
+  "stellarity:exploration/ender_adventurer": {
+    "criteria": {
+      "end_wilds": "2023-11-25 14:06:18 +0000",
+      "end_highlands": "2023-11-25 14:06:07 +0000"
+    },
+    "done": false
+  },
+  "stellarity:cursed_tome/ancient_armor": {
+    "criteria": {
+      "requirement3": "2023-11-25 14:06:31 +0000"
+    },
+    "done": true
+  },
+  "stellarity:dragons_den/cursed_tome/items/unlock_zephyr": {
+    "criteria": {
+      "requirement": "2023-11-25 14:06:31 +0000"
+    },
+    "done": true
+  },
+  "stellarity:dragons_den/cursed_tome/items/unlock_ancient_armor": {
+    "criteria": {
+      "requirement3": "2023-11-25 14:06:31 +0000"
+    },
+    "done": true
+  },
+  "stellarity:cursed_tome/hallowed_armor": {
+    "criteria": {
+      "requirement3": "2023-11-25 14:06:31 +0000"
+    },
+    "done": true
+  },
+  "stellarity:cursed_tome/pandoras_barrel": {
+    "criteria": {
+      "requirement2": "2023-11-25 14:06:31 +0000"
+    },
+    "done": true
+  },
+  "minecraft:end/find_end_city": {
+    "criteria": {
+      "in_city": "2023-11-25 14:06:31 +0000"
+    },
+    "done": true
+  },
+  "stellarity:dragons_den/cursed_tome/items/unlock_pandoras_barrel": {
+    "criteria": {
+      "requirement2": "2023-11-25 14:06:31 +0000"
+    },
+    "done": true
+  },
+  "stellarity:cursed_tome/zephyr": {
+    "criteria": {
+      "requirement": "2023-11-25 14:06:31 +0000"
+    },
+    "done": true
+  },
+  "stellarity:dragons_den/cursed_tome/items/unlock_hallowed_armor": {
+    "criteria": {
+      "requirement3": "2023-11-25 14:06:31 +0000"
+    },
+    "done": true
+  },
+  "stellarity:end_city/defeat_shulker": {
+    "criteria": {
+      "defeat_shulkers": "2023-11-25 14:06:42 +0000"
+    },
+    "done": true
+  },
+  "stellarity:end_city/whos_the_thief_now": {
+    "criteria": {
+      "open_chest_1": "2023-11-25 14:07:16 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/spire_armor_trim_smithing_template": {
+    "criteria": {
+      "has_spire_armor_trim_smithing_template": "2023-11-25 14:07:19 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/spire_armor_trim_smithing_template_smithing_trim": {
+    "criteria": {
+      "has_smithing_trim_template": "2023-11-25 14:07:19 +0000"
+    },
+    "done": true
+  },
+  "stellarity:cursed_tome/spirit_dagger": {
+    "criteria": {
+      "requirement2": "2023-11-25 14:12:37 +0000"
+    },
+    "done": true
+  },
+  "stellarity:adventure/kill_large_phantom": {
+    "criteria": {
+      "size_doesnt_matter": "2023-11-25 14:12:37 +0000"
+    },
+    "done": true
+  },
+  "stellarity:adventure/night_sky_stalkers": {
+    "criteria": {
+      "sleep_deprivation": "2023-11-25 14:12:37 +0000"
+    },
+    "done": true
+  },
+  "stellarity:dragons_den/cursed_tome/items/unlock_spirit_dagger": {
+    "criteria": {
+      "requirement2": "2023-11-25 14:12:37 +0000"
     },
     "done": true
   },
@@ -4003,9 +3978,159 @@
     },
     "done": true
   },
-  "stellarity:dragons_den/cursed_tome/items/unlock_spirit_dagger": {
+  "stellarity:end_city/treasure_room": {
     "criteria": {
-      "requirement2": "2023-11-25 14:12:37 +0000"
+      "obtain_head": "2023-11-25 14:14:04 +0000"
+    },
+    "done": true
+  },
+  "stellarity:end_city/headhunter": {
+    "criteria": {
+      "47": "2023-11-25 14:14:04 +0000"
+    },
+    "done": false
+  },
+  "minecraft:end/elytra": {
+    "criteria": {
+      "elytra": "2023-11-25 14:14:08 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/glowstone": {
+    "criteria": {
+      "has_glowstone_dust": "2023-11-25 14:14:12 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/spectral_arrow": {
+    "criteria": {
+      "has_glowstone_dust": "2023-11-25 14:14:12 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/trim_with_all_exclusive_armor_patterns": {
+    "criteria": {
+      "armor_trimmed_minecraft:spire_armor_trim_smithing_template_smithing_trim": "2023-11-25 15:32:34 +0000"
+    },
+    "done": false
+  },
+  "stellarity:end_city/portable_storage": {
+    "criteria": {
+      "craft_shulker_box": "2023-11-25 15:12:26 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/bamboo_sign": {
+    "criteria": {
+      "has_planks": "2023-11-25 16:28:12 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/trim_with_any_armor_pattern": {
+    "criteria": {
+      "armor_trimmed_minecraft:sentry_armor_trim_smithing_template_smithing_trim": "2023-11-25 15:32:30 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/bamboo_door": {
+    "criteria": {
+      "has_planks": "2023-11-25 16:28:12 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/bamboo_fence": {
+    "criteria": {
+      "has_planks": "2023-11-25 16:28:12 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stripped_cherry_wood": {
+    "criteria": {
+      "has_log": "2023-11-25 16:28:34 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/flower_banner_pattern": {
+    "criteria": {
+      "has_oxeye_daisy": "2023-11-25 15:15:59 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/light_gray_dye_from_azure_bluet": {
+    "criteria": {
+      "has_azure_bluet": "2023-11-25 16:13:09 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/bamboo_trapdoor": {
+    "criteria": {
+      "has_planks": "2023-11-25 16:28:12 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/bamboo_pressure_plate": {
+    "criteria": {
+      "has_planks": "2023-11-25 16:28:12 +0000"
+    },
+    "done": true
+  },
+  "stellarity:dragons_den/disassembly": {
+    "criteria": {
+      "requirement": "2023-11-25 14:45:33 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/bamboo_slab": {
+    "criteria": {
+      "has_planks": "2023-11-25 16:28:12 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/bamboo_button": {
+    "criteria": {
+      "has_planks": "2023-11-25 16:28:12 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/stick_from_bamboo_item": {
+    "criteria": {
+      "has_bamboo": "2023-11-25 16:19:09 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/bamboo_fence_gate": {
+    "criteria": {
+      "has_planks": "2023-11-25 16:28:12 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/light_gray_dye_from_oxeye_daisy": {
+    "criteria": {
+      "has_oxeye_daisy": "2023-11-25 15:15:59 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/bamboo_stairs": {
+    "criteria": {
+      "has_planks": "2023-11-25 16:28:12 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/bamboo_block": {
+    "criteria": {
+      "has_bamboo": "2023-11-25 16:19:09 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/scaffolding": {
+    "criteria": {
+      "has_bamboo": "2023-11-25 16:19:09 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/cherry_hanging_sign": {
+    "criteria": {
+      "has_stripped_logs": "2023-11-25 16:28:34 +0000"
     },
     "done": true
   },
