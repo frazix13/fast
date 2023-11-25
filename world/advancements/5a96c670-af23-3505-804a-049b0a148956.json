@@ -1,0 +1,75 @@
+{
+  "stellarity:cursed_tome/root": {
+    "criteria": {
+      "requirement": "2023-11-25 13:46:32 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/crafting_table": {
+    "criteria": {
+      "unlock_right_away": "2023-11-25 13:46:32 +0000"
+    },
+    "done": true
+  },
+  "boomber:veinminer": {
+    "criteria": {
+      "trigger": "2023-11-25 13:46:32 +0000"
+    },
+    "done": true
+  },
+  "global:root": {
+    "criteria": {
+      "trigger": "2023-11-25 13:46:32 +0000"
+    },
+    "done": true
+  },
+  "global:2mal3": {
+    "criteria": {
+      "trigger": "2023-11-25 13:46:32 +0000"
+    },
+    "done": true
+  },
+  "nola:core/first_join": {
+    "criteria": {
+      "requirement": "2023-11-25 13:46:32 +0000"
+    },
+    "done": true
+  },
+  "stellarity:dragons_den/cursed_tome/root": {
+    "criteria": {
+      "requirement": "2023-11-25 13:46:32 +0000"
+    },
+    "done": true
+  },
+  "mt:load": {
+    "criteria": {
+      "requirement": "2023-11-25 13:46:32 +0000"
+    },
+    "done": true
+  },
+  "global:boomber": {
+    "criteria": {
+      "trigger": "2023-11-25 13:46:32 +0000"
+    },
+    "done": true
+  },
+  "nola:core/nola": {
+    "criteria": {
+      "trigger": "2023-11-25 13:46:32 +0000"
+    },
+    "done": true
+  },
+  "mt:entity_hit_system/on_hit": {
+    "criteria": {
+      "not_target": "2023-11-25 13:46:36 +0000"
+    },
+    "done": false
+  },
+  "minecraft:adventure/root": {
+    "criteria": {
+      "killed_something": "2023-11-25 13:46:39 +0000"
+    },
+    "done": true
+  },
+  "DataVersion": 3465
+}
