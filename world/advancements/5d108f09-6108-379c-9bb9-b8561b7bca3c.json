@@ -672,9 +672,12 @@
       "minecraft:piglin_brute": "2023-11-22 07:32:09 +0000",
       "minecraft:creeper": "2023-11-20 07:06:08 +0000",
       "minecraft:evoker": "2023-11-24 15:39:01 +0000",
+      "minecraft:phantom": "2023-11-25 14:12:37 +0000",
       "minecraft:zombified_piglin": "2023-11-22 07:34:14 +0000",
       "minecraft:witch": "2023-11-24 15:39:48 +0000",
+      "minecraft:wither_skeleton": "2023-11-25 14:13:19 +0000",
       "minecraft:ender_dragon": "2023-11-24 15:50:37 +0000",
+      "minecraft:shulker": "2023-11-25 14:06:42 +0000",
       "minecraft:piglin": "2023-11-22 07:31:36 +0000",
       "minecraft:stray": "2023-11-20 12:55:52 +0000",
       "minecraft:enderman": "2023-11-22 07:23:29 +0000",
@@ -3689,7 +3692,7 @@
   },
   "mt:entity_hit_system/on_hurt": {
     "criteria": {
-      "nbit3": "2023-11-24 15:50:12 +0000"
+      "nbit4": "2023-11-25 14:15:34 +0000"
     },
     "done": false
   },
@@ -3738,6 +3741,271 @@
   "minecraft:end/kill_dragon": {
     "criteria": {
       "kill_dragon": "2023-11-24 15:50:46 +0000"
+    },
+    "done": true
+  },
+  "minecraft:nether/obtain_crying_obsidian": {
+    "criteria": {
+      "crying_obsidian": "2023-11-25 13:58:10 +0000"
+    },
+    "done": true
+  },
+  "stellarity:cursed_tome/ancient_armor": {
+    "criteria": {
+      "requirement3": "2023-11-25 14:06:31 +0000"
+    },
+    "done": true
+  },
+  "stellarity:cursed_tome/spirit_dagger": {
+    "criteria": {
+      "requirement2": "2023-11-25 14:12:37 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/end_stone_brick_slab_from_end_stone_stonecutting": {
+    "criteria": {
+      "has_end_stone": "2023-11-25 14:02:09 +0000"
+    },
+    "done": true
+  },
+  "stellarity:dragons_den/cursed_tome/items/unlock_zephyr": {
+    "criteria": {
+      "requirement": "2023-11-25 14:06:31 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/end_stone_bricks": {
+    "criteria": {
+      "has_end_stone": "2023-11-25 14:02:09 +0000"
+    },
+    "done": true
+  },
+  "stellarity:end_city/treasure_room": {
+    "criteria": {
+      "obtain_head": "2023-11-25 14:14:04 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/nether_wart_block": {
+    "criteria": {
+      "has_nether_wart": "2023-11-25 13:58:01 +0000"
+    },
+    "done": true
+  },
+  "stellarity:end_city/whos_the_thief_now": {
+    "criteria": {
+      "open_chest_1": "2023-11-25 14:07:16 +0000"
+    },
+    "done": true
+  },
+  "stellarity:end_city/defeat_shulker": {
+    "criteria": {
+      "defeat_shulkers": "2023-11-25 14:06:42 +0000"
+    },
+    "done": true
+  },
+  "stellarity:dragons_den/cursed_tome/items/unlock_ancient_armor": {
+    "criteria": {
+      "requirement3": "2023-11-25 14:06:31 +0000"
+    },
+    "done": true
+  },
+  "minecraft:end/dragon_breath": {
+    "criteria": {
+      "dragon_breath": "2023-11-25 14:03:46 +0000"
+    },
+    "done": true
+  },
+  "stellarity:end_city/headhunter": {
+    "criteria": {
+      "47": "2023-11-25 14:14:04 +0000"
+    },
+    "done": false
+  },
+  "stellarity:adventure/kill_large_phantom": {
+    "criteria": {
+      "size_doesnt_matter": "2023-11-25 14:12:37 +0000"
+    },
+    "done": true
+  },
+  "stellarity:dragons_den/cursed_tome/items/unlock_sharanga": {
+    "criteria": {
+      "requirement2": "2023-11-25 13:57:31 +0000"
+    },
+    "done": true
+  },
+  "stellarity:recipes/purple_dye_from_chorus_fruit": {
+    "criteria": {
+      "has_item": "2023-11-25 14:03:26 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/red_nether_bricks": {
+    "criteria": {
+      "has_nether_wart": "2023-11-25 13:58:01 +0000"
+    },
+    "done": true
+  },
+  "stellarity:cursed_tome/hallowed_armor": {
+    "criteria": {
+      "requirement3": "2023-11-25 14:06:31 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/popped_chorus_fruit": {
+    "criteria": {
+      "has_chorus_fruit": "2023-11-25 14:03:26 +0000"
+    },
+    "done": true
+  },
+  "mt:treasure_advancements/first_common_end_treasure": {
+    "criteria": {
+      "obtainchest": "2023-11-25 14:03:22 +0000"
+    },
+    "done": true
+  },
+  "stellarity:recipes/chorus_plant_from_fruit": {
+    "criteria": {
+      "has_item": "2023-11-25 14:03:26 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/spire_armor_trim_smithing_template": {
+    "criteria": {
+      "has_spire_armor_trim_smithing_template": "2023-11-25 14:07:19 +0000"
+    },
+    "done": true
+  },
+  "stellarity:cursed_tome/sharanga": {
+    "criteria": {
+      "requirement2": "2023-11-25 13:57:31 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/respawn_anchor": {
+    "criteria": {
+      "has_obsidian": "2023-11-25 13:58:10 +0000"
+    },
+    "done": true
+  },
+  "stellarity:exploration/ender_adventurer": {
+    "criteria": {
+      "end_wilds": "2023-11-25 14:06:18 +0000",
+      "end_highlands": "2023-11-25 14:06:07 +0000"
+    },
+    "done": false
+  },
+  "stellarity:adventure/night_sky_stalkers": {
+    "criteria": {
+      "sleep_deprivation": "2023-11-25 14:12:37 +0000"
+    },
+    "done": true
+  },
+  "stellarity:cursed_tome/pandoras_barrel": {
+    "criteria": {
+      "requirement2": "2023-11-25 14:06:31 +0000"
+    },
+    "done": true
+  },
+  "minecraft:end/find_end_city": {
+    "criteria": {
+      "in_city": "2023-11-25 14:06:31 +0000"
+    },
+    "done": true
+  },
+  "minecraft:end/enter_end_gateway": {
+    "criteria": {
+      "entered_end_gateway": "2023-11-25 14:05:31 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/end_stone_brick_wall_from_end_stone_stonecutting": {
+    "criteria": {
+      "has_end_stone": "2023-11-25 14:02:09 +0000"
+    },
+    "done": true
+  },
+  "stellarity:recipes/leather_from_membranes": {
+    "criteria": {
+      "has_item": "2023-11-25 14:03:26 +0000"
+    },
+    "done": true
+  },
+  "minecraft:end/elytra": {
+    "criteria": {
+      "elytra": "2023-11-25 14:14:08 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/spire_armor_trim_smithing_template_smithing_trim": {
+    "criteria": {
+      "has_smithing_trim_template": "2023-11-25 14:07:19 +0000"
+    },
+    "done": true
+  },
+  "stellarity:dragons_den/cursed_tome/items/unlock_pandoras_barrel": {
+    "criteria": {
+      "requirement2": "2023-11-25 14:06:31 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/glowstone": {
+    "criteria": {
+      "has_glowstone_dust": "2023-11-25 14:14:12 +0000"
+    },
+    "done": true
+  },
+  "stellarity:cursed_tome/zephyr": {
+    "criteria": {
+      "requirement": "2023-11-25 14:06:31 +0000"
+    },
+    "done": true
+  },
+  "stellarity:dragons_den/cursed_tome/items/unlock_hallowed_armor": {
+    "criteria": {
+      "requirement3": "2023-11-25 14:06:31 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/spectral_arrow": {
+    "criteria": {
+      "has_glowstone_dust": "2023-11-25 14:14:12 +0000"
+    },
+    "done": true
+  },
+  "stellarity:recipes/glass_from_end_stone": {
+    "criteria": {
+      "has_item": "2023-11-25 14:02:09 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/end_stone_bricks_from_end_stone_stonecutting": {
+    "criteria": {
+      "has_end_stone": "2023-11-25 14:02:09 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/end_stone_brick_stairs_from_end_stone_stonecutting": {
+    "criteria": {
+      "has_end_stone": "2023-11-25 14:02:09 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/shulker_box": {
+    "criteria": {
+      "has_shulker_shell": "2023-11-25 14:03:26 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/iron_ingot_from_nuggets": {
+    "criteria": {
+      "has_iron_nugget": "2023-11-25 14:14:03 +0000"
+    },
+    "done": true
+  },
+  "stellarity:dragons_den/cursed_tome/items/unlock_spirit_dagger": {
+    "criteria": {
+      "requirement2": "2023-11-25 14:12:37 +0000"
     },
     "done": true
   },
