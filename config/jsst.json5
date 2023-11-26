@@ -1,0 +1,48 @@
+{
+	portableCrafting: {
+		// Whether players need to sneak to use crafting tables as items. (Default: false, Options: true, false)
+		sneakOnly: false,
+		// Is this feature enabled? (Default: true, Options: true, false)
+		enabled: true,
+	},
+	worldContainerNames: {
+		// How labels should face the player. (Default: CENTER, Options: CENTER, VERTICAL)
+		facingMode: "CENTER",
+		// Multiplier for the distance labels are shown. (Default: 1, Range: [0.25, 4])
+		labelRangeMultiplier: 1.0,
+		// Is this feature enabled? (Default: true, Options: true, false)
+		enabled: true,
+	},
+	itemEditor: {
+		// Enable dev-specific editors
+		enabledDevTools: false,
+	},
+	displayItems: {
+		// Should only the owner be allowed to pick up display items? (Default: true, Options: true, false)
+		ownerPickupOnly: true,
+		// Should only server operators be allowed to create display items? Does not apply in single player. Recommended to enable ownerPickupOnly if this is true. (Default: true, Options: true, false)
+		operatorOnly: false,
+		// Is this feature enabled? (Default: true, Options: true, false)
+		enabled: true,
+	},
+	commandDefinedDatapack: { },
+	bannerWriter: { },
+	saplingsReplant: {
+		// Should saplings try to space themself out? (Default: true, Options: true, false)
+		spacingEnabled: true,
+		// Minimum blocks between saplings. Requires spacingEnabled. (Default: 2, Range: [1, 3])
+		minimumDistance: 1,
+		// Horizontal distance that saplings search for a valid position. Vertically, always checks layer above and below. (Default: 3, Range: [1, 4])
+		searchRange: 3,
+		// Maximum number of saplings to plant per dropped stack; the rest are discarded. (Default: 5, Range: [1, 64])
+		maxPerStack: 5,
+		// Is this feature enabled? (Default: true, Options: true, false)
+		enabled: true,
+	},
+	beaconRangeModifier: {
+		// Multiplier for the range on beacons. (Default: 1.5, Range: [0.5, 8])
+		rangeMultiplier: 8.0,
+		// Is this feature enabled? (Default: true, Options: true, false)
+		enabled: true,
+	},
+}

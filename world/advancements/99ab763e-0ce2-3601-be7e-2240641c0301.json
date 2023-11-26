@@ -854,6 +854,7 @@
       "minecraft:spider": "2023-11-20 07:03:48 +0000",
       "minecraft:creeper": "2023-11-20 13:38:29 +0000",
       "minecraft:wither": "2023-11-26 07:17:14 +0000",
+      "minecraft:phantom": "2023-11-26 16:30:52 +0000",
       "minecraft:zombie": "2023-11-20 07:00:48 +0000",
       "minecraft:zombie_villager": "2023-11-22 13:28:36 +0000"
     },
@@ -2398,6 +2399,30 @@
   "minecraft:nether/summon_wither": {
     "criteria": {
       "summoned": "2023-11-26 07:16:04 +0000"
+    },
+    "done": true
+  },
+  "stellarity:adventure/kill_large_phantom": {
+    "criteria": {
+      "size_doesnt_matter": "2023-11-26 16:30:52 +0000"
+    },
+    "done": true
+  },
+  "stellarity:adventure/night_sky_stalkers": {
+    "criteria": {
+      "sleep_deprivation": "2023-11-26 16:30:52 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/iron_ingot_from_iron_block": {
+    "criteria": {
+      "has_iron_block": "2023-11-26 16:31:58 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/anvil": {
+    "criteria": {
+      "has_iron_block": "2023-11-26 16:31:58 +0000"
     },
     "done": true
   },

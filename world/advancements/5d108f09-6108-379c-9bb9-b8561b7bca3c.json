@@ -676,6 +676,7 @@
       "minecraft:spider": "2023-11-18 14:45:57 +0000",
       "minecraft:piglin_brute": "2023-11-22 07:32:09 +0000",
       "minecraft:creeper": "2023-11-20 07:06:08 +0000",
+      "minecraft:wither": "2023-11-26 15:55:28 +0000",
       "minecraft:evoker": "2023-11-24 15:39:01 +0000",
       "minecraft:phantom": "2023-11-25 14:12:37 +0000",
       "minecraft:zombified_piglin": "2023-11-22 07:34:14 +0000",
@@ -4257,6 +4258,24 @@
   "minecraft:nether/create_full_beacon": {
     "criteria": {
       "beacon": "2023-11-26 07:23:26 +0000"
+    },
+    "done": true
+  },
+  "minecraft:nether/brew_potion": {
+    "criteria": {
+      "potion": "2023-11-26 15:50:06 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/armor_stand": {
+    "criteria": {
+      "has_stone_slab": "2023-11-26 16:03:25 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/black_dye": {
+    "criteria": {
+      "has_ink_sac": "2023-11-26 16:22:05 +0000"
     },
     "done": true
   },
