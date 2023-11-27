@@ -3989,7 +3989,8 @@
   },
   "stellarity:end_city/headhunter": {
     "criteria": {
-      "47": "2023-11-25 14:14:04 +0000"
+      "47": "2023-11-25 14:14:04 +0000",
+      "27": "2023-11-27 13:59:04 +0000"
     },
     "done": false
   },
@@ -4287,14 +4288,11 @@
     },
     "done": true
   },
-  "mt:entity_hit_system/on_hurt": {
+  "minecraft:recipes/misc/mojang_banner_pattern": {
     "criteria": {
-      "nbit5": "2023-11-27 06:47:03 +0000",
-      "nbit6": "2023-11-27 06:47:03 +0000",
-      "nbit0": "2023-11-27 06:47:03 +0000",
-      "bit9": "2023-11-27 06:47:03 +0000"
+      "has_enchanted_golden_apple": "2023-11-27 08:00:16 +0000"
     },
-    "done": false
+    "done": true
   },
   "stellarity:exploration/enter_end_village": {
     "criteria": {
@@ -4302,9 +4300,15 @@
     },
     "done": true
   },
-  "minecraft:recipes/misc/mojang_banner_pattern": {
+  "mt:treasure_advancements/first_legendary_treasure": {
     "criteria": {
-      "has_enchanted_golden_apple": "2023-11-27 08:00:16 +0000"
+      "obtainchest": "2023-11-27 14:22:34 +0000"
+    },
+    "done": true
+  },
+  "mt:treasure_advancements/first_legendary_default_treasure": {
+    "criteria": {
+      "obtainchest": "2023-11-27 14:22:37 +0000"
     },
     "done": true
   },
