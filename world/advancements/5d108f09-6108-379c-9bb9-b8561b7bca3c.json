@@ -4296,5 +4296,17 @@
     },
     "done": false
   },
+  "stellarity:exploration/enter_end_village": {
+    "criteria": {
+      "find_a_town_in_a_complete_shithole": "2023-11-27 08:03:35 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/mojang_banner_pattern": {
+    "criteria": {
+      "has_enchanted_golden_apple": "2023-11-27 08:00:16 +0000"
+    },
+    "done": true
+  },
   "DataVersion": 3465
 }
