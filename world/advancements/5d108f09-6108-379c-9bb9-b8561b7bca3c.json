@@ -682,6 +682,7 @@
       "minecraft:zombified_piglin": "2023-11-22 07:34:14 +0000",
       "minecraft:witch": "2023-11-24 15:39:48 +0000",
       "minecraft:wither_skeleton": "2023-11-25 14:13:19 +0000",
+      "minecraft:husk": "2023-11-27 06:44:28 +0000",
       "minecraft:ender_dragon": "2023-11-24 15:50:37 +0000",
       "minecraft:shulker": "2023-11-25 14:06:42 +0000",
       "minecraft:piglin": "2023-11-22 07:31:36 +0000",
@@ -3867,6 +3868,7 @@
   "stellarity:exploration/ender_adventurer": {
     "criteria": {
       "end_wilds": "2023-11-25 14:06:18 +0000",
+      "amethyst_forest": "2023-11-27 06:46:00 +0000",
       "end_highlands": "2023-11-25 14:06:07 +0000"
     },
     "done": false
@@ -4278,6 +4280,21 @@
       "has_ink_sac": "2023-11-26 16:22:05 +0000"
     },
     "done": true
+  },
+  "stellarity:end_city/super_sonic": {
+    "criteria": {
+      "fly": "2023-11-27 06:43:04 +0000"
+    },
+    "done": true
+  },
+  "mt:entity_hit_system/on_hurt": {
+    "criteria": {
+      "nbit5": "2023-11-27 06:47:03 +0000",
+      "nbit6": "2023-11-27 06:47:03 +0000",
+      "nbit0": "2023-11-27 06:47:03 +0000",
+      "bit9": "2023-11-27 06:47:03 +0000"
+    },
+    "done": false
   },
   "DataVersion": 3465
 }

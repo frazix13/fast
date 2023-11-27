@@ -855,6 +855,7 @@
       "minecraft:creeper": "2023-11-20 13:38:29 +0000",
       "minecraft:wither": "2023-11-26 07:17:14 +0000",
       "minecraft:phantom": "2023-11-26 16:30:52 +0000",
+      "minecraft:husk": "2023-11-27 06:44:51 +0000",
       "minecraft:zombie": "2023-11-20 07:00:48 +0000",
       "minecraft:zombie_villager": "2023-11-22 13:28:36 +0000"
     },
@@ -2423,6 +2424,38 @@
   "minecraft:recipes/decorations/anvil": {
     "criteria": {
       "has_iron_block": "2023-11-26 16:31:58 +0000"
+    },
+    "done": true
+  },
+  "stellarity:cursed_tome/shulker_things": {
+    "criteria": {
+      "requirement2": "2023-11-27 06:40:58 +0000"
+    },
+    "done": true
+  },
+  "stellarity:exploration/ender_adventurer": {
+    "criteria": {
+      "end_wilds": "2023-11-27 06:43:55 +0000",
+      "amethyst_forest": "2023-11-27 06:40:58 +0000",
+      "end_highlands": "2023-11-27 06:42:49 +0000"
+    },
+    "done": false
+  },
+  "minecraft:end/enter_end_gateway": {
+    "criteria": {
+      "entered_end_gateway": "2023-11-27 06:42:19 +0000"
+    },
+    "done": true
+  },
+  "stellarity:dragons_den/cursed_tome/items/unlock_shulker_things": {
+    "criteria": {
+      "requirement2": "2023-11-27 06:40:58 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/follow_ender_eye": {
+    "criteria": {
+      "in_stronghold": "2023-11-27 06:40:44 +0000"
     },
     "done": true
   },
