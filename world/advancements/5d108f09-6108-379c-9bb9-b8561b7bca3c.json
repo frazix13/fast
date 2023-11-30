@@ -4312,5 +4312,53 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/glass": {
+    "criteria": {
+      "has_smelts_to_glass": "2023-11-30 14:52:37 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/sandstone": {
+    "criteria": {
+      "has_sand": "2023-11-30 14:52:37 +0000"
+    },
+    "done": true
+  },
+  "mt:treasure_advancements/25_common_treasure": {
+    "criteria": {
+      "obtainchest": "2023-11-30 15:03:57 +0000"
+    },
+    "done": true
+  },
+  "mt:treasure_advancements/10_rare_treasure": {
+    "criteria": {
+      "obtainchest": "2023-11-30 15:05:49 +0000"
+    },
+    "done": true
+  },
+  "mt:treasure_advancements/first_epic_treasure": {
+    "criteria": {
+      "obtainchest": "2023-11-30 15:19:47 +0000"
+    },
+    "done": true
+  },
+  "mt:treasure_advancements/first_epic_taiga_treasure": {
+    "criteria": {
+      "obtainchest": "2023-11-30 15:19:50 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/black_dye_from_wither_rose": {
+    "criteria": {
+      "has_wither_rose": "2023-11-30 15:19:55 +0000"
+    },
+    "done": true
+  },
+  "mt:entity_hit_system/on_hit": {
+    "criteria": {
+      "not_target": "2023-11-30 15:25:06 +0000"
+    },
+    "done": false
+  },
   "DataVersion": 3465
 }

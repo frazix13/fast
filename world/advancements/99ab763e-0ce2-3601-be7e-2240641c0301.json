@@ -81,6 +81,7 @@
     "criteria": {
       "minecraft:snowy_slopes": "2023-11-18 14:48:34 +0000",
       "minecraft:taiga": "2023-11-18 14:27:43 +0000",
+      "minecraft:deep_ocean": "2023-11-30 15:43:10 +0000",
       "minecraft:cherry_grove": "2023-11-18 14:46:18 +0000",
       "minecraft:sunflower_plains": "2023-11-18 14:58:35 +0000",
       "minecraft:beach": "2023-11-18 14:22:11 +0000",
@@ -90,6 +91,7 @@
       "minecraft:lush_caves": "2023-11-18 14:29:27 +0000",
       "minecraft:deep_cold_ocean": "2023-11-18 14:24:39 +0000",
       "minecraft:ocean": "2023-11-18 14:44:17 +0000",
+      "minecraft:flower_forest": "2023-11-30 14:45:16 +0000",
       "minecraft:frozen_peaks": "2023-11-18 14:47:41 +0000",
       "minecraft:plains": "2023-11-17 16:17:49 +0000"
     },
@@ -261,6 +263,7 @@
       "mutton": "2023-11-22 08:05:37 +0000",
       "pufferfish": "2023-11-17 16:39:32 +0000",
       "bread": "2023-11-18 14:23:42 +0000",
+      "golden_apple": "2023-11-30 15:29:03 +0000",
       "rotten_flesh": "2023-11-20 06:50:17 +0000",
       "glow_berries": "2023-11-18 14:59:37 +0000",
       "cooked_rabbit": "2023-11-25 14:48:49 +0000",
@@ -2427,6 +2430,12 @@
     },
     "done": true
   },
+  "minecraft:story/follow_ender_eye": {
+    "criteria": {
+      "in_stronghold": "2023-11-27 06:40:44 +0000"
+    },
+    "done": true
+  },
   "stellarity:cursed_tome/shulker_things": {
     "criteria": {
       "requirement2": "2023-11-27 06:40:58 +0000"
@@ -2441,21 +2450,45 @@
     },
     "done": false
   },
-  "minecraft:end/enter_end_gateway": {
-    "criteria": {
-      "entered_end_gateway": "2023-11-27 06:42:19 +0000"
-    },
-    "done": true
-  },
   "stellarity:dragons_den/cursed_tome/items/unlock_shulker_things": {
     "criteria": {
       "requirement2": "2023-11-27 06:40:58 +0000"
     },
     "done": true
   },
-  "minecraft:story/follow_ender_eye": {
+  "minecraft:end/enter_end_gateway": {
     "criteria": {
-      "in_stronghold": "2023-11-27 06:40:44 +0000"
+      "entered_end_gateway": "2023-11-27 06:42:19 +0000"
+    },
+    "done": true
+  },
+  "mt:entity_hit_system/on_hit": {
+    "criteria": {
+      "not_target": "2023-11-30 15:38:02 +0000"
+    },
+    "done": false
+  },
+  "mt:treasure_advancements/25_common_treasure": {
+    "criteria": {
+      "obtainchest": "2023-11-30 15:12:50 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/clay": {
+    "criteria": {
+      "has_clay_ball": "2023-11-30 14:54:03 +0000"
+    },
+    "done": true
+  },
+  "minecraft:end/elytra": {
+    "criteria": {
+      "elytra": "2023-11-30 14:40:18 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/brick": {
+    "criteria": {
+      "has_clay_ball": "2023-11-30 14:54:03 +0000"
     },
     "done": true
   },
