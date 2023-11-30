@@ -5,18 +5,6 @@
     },
     "done": true
   },
-  "global:boomber": {
-    "criteria": {
-      "trigger": "2023-11-17 16:02:28 +0000"
-    },
-    "done": true
-  },
-  "boomber:veinminer": {
-    "criteria": {
-      "trigger": "2023-11-17 16:02:28 +0000"
-    },
-    "done": true
-  },
   "global:root": {
     "criteria": {
       "trigger": "2023-11-17 16:02:28 +0000"
@@ -2413,12 +2401,6 @@
     },
     "done": true
   },
-  "mt:load": {
-    "criteria": {
-      "requirement": "2023-11-20 15:28:50 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/decorations/lime_stained_glass_pane_from_glass_pane": {
     "criteria": {
       "has_glass_pane": "2023-11-20 15:46:10 +0000"
@@ -2521,24 +2503,6 @@
     },
     "done": true
   },
-  "mt:treasure_advancements/first_common_treasure": {
-    "criteria": {
-      "obtainchest": "2023-11-22 05:35:12 +0000"
-    },
-    "done": true
-  },
-  "mt:treasure_advancements/root": {
-    "criteria": {
-      "obtainchest": "2023-11-22 05:35:12 +0000"
-    },
-    "done": true
-  },
-  "mt:treasure_advancements/first_common_default_treasure": {
-    "criteria": {
-      "obtainchest": "2023-11-22 05:35:14 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/decorations/soul_torch": {
     "criteria": {
       "has_soul_sand": "2023-11-22 05:45:51 +0000"
@@ -2563,12 +2527,6 @@
     },
     "done": true
   },
-  "mt:entity_hit_system/did_hit": {
-    "criteria": {
-      "requirement": "2023-11-22 07:18:09 +0000"
-    },
-    "done": true
-  },
   "minecraft:adventure/throw_trident": {
     "criteria": {
       "shot_trident": "2023-11-22 07:18:09 +0000"
@@ -2590,12 +2548,6 @@
   "minecraft:recipes/misc/nether_brick": {
     "criteria": {
       "has_netherrack": "2023-11-22 07:27:25 +0000"
-    },
-    "done": true
-  },
-  "mt:treasure_advancements/first_common_nether_treasure": {
-    "criteria": {
-      "obtainchest": "2023-11-22 07:28:53 +0000"
     },
     "done": true
   },
@@ -2818,18 +2770,6 @@
   "minecraft:recipes/misc/netherite_ingot": {
     "criteria": {
       "has_netherite_scrap": "2023-11-22 07:36:30 +0000"
-    },
-    "done": true
-  },
-  "mt:treasure_advancements/first_rare_treasure": {
-    "criteria": {
-      "obtainchest": "2023-11-22 08:01:26 +0000"
-    },
-    "done": true
-  },
-  "mt:treasure_advancements/first_rare_default_treasure": {
-    "criteria": {
-      "obtainchest": "2023-11-22 08:01:28 +0000"
     },
     "done": true
   },
@@ -3283,12 +3223,6 @@
     },
     "done": true
   },
-  "mt:treasure_advancements/first_common_warped_treasure": {
-    "criteria": {
-      "obtainchest": "2023-11-23 16:27:31 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/building_blocks/warped_hyphae": {
     "criteria": {
       "has_log": "2023-11-23 16:27:34 +0000"
@@ -3298,12 +3232,6 @@
   "minecraft:recipes/building_blocks/warped_planks": {
     "criteria": {
       "has_logs": "2023-11-23 16:27:34 +0000"
-    },
-    "done": true
-  },
-  "mt:treasure_advancements/first_rare_warped_treasure": {
-    "criteria": {
-      "obtainchest": "2023-11-23 16:28:17 +0000"
     },
     "done": true
   },
@@ -3331,12 +3259,6 @@
     },
     "done": true
   },
-  "mt:treasure_advancements/first_common_basalt_treasure": {
-    "criteria": {
-      "obtainchest": "2023-11-23 16:29:02 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/building_blocks/magma_block": {
     "criteria": {
       "has_magma_cream": "2023-11-23 16:29:04 +0000"
@@ -3361,12 +3283,6 @@
     },
     "done": true
   },
-  "mt:treasure_advancements/first_rare_basalt_treasure": {
-    "criteria": {
-      "obtainchest": "2023-11-23 16:29:17 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/food/cooked_porkchop_from_campfire_cooking": {
     "criteria": {
       "has_porkchop": "2023-11-23 16:29:54 +0000"
@@ -3382,12 +3298,6 @@
   "minecraft:recipes/food/cooked_porkchop_from_smoking": {
     "criteria": {
       "has_porkchop": "2023-11-23 16:29:54 +0000"
-    },
-    "done": true
-  },
-  "mt:treasure_advancements/10_common_treasure": {
-    "criteria": {
-      "obtainchest": "2023-11-23 16:34:06 +0000"
     },
     "done": true
   },
@@ -3463,12 +3373,6 @@
     },
     "done": true
   },
-  "mt:treasure_advancements/first_rare_taiga_treasure": {
-    "criteria": {
-      "obtainchest": "2023-11-23 17:04:02 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/food/rabbit_stew_from_brown_mushroom": {
     "criteria": {
       "has_cooked_rabbit": "2023-11-23 17:04:04 +0000"
@@ -3478,12 +3382,6 @@
   "minecraft:recipes/food/rabbit_stew_from_red_mushroom": {
     "criteria": {
       "has_cooked_rabbit": "2023-11-23 17:04:04 +0000"
-    },
-    "done": true
-  },
-  "mt:treasure_advancements/first_common_taiga_treasure": {
-    "criteria": {
-      "obtainchest": "2023-11-24 08:35:44 +0000"
     },
     "done": true
   },
@@ -3691,12 +3589,6 @@
     },
     "done": true
   },
-  "mt:entity_hit_system/got_hit": {
-    "criteria": {
-      "requirement": "2023-11-24 15:45:23 +0000"
-    },
-    "done": true
-  },
   "stellarity:cursed_tome/dragonblade": {
     "criteria": {
       "requirement2": "2023-11-24 15:50:37 +0000"
@@ -3814,12 +3706,6 @@
   "minecraft:recipes/building_blocks/end_stone_brick_stairs_from_end_stone_stonecutting": {
     "criteria": {
       "has_end_stone": "2023-11-25 14:02:09 +0000"
-    },
-    "done": true
-  },
-  "mt:treasure_advancements/first_common_end_treasure": {
-    "criteria": {
-      "obtainchest": "2023-11-25 14:03:22 +0000"
     },
     "done": true
   },
@@ -4300,18 +4186,6 @@
     },
     "done": true
   },
-  "mt:treasure_advancements/first_legendary_treasure": {
-    "criteria": {
-      "obtainchest": "2023-11-27 14:22:34 +0000"
-    },
-    "done": true
-  },
-  "mt:treasure_advancements/first_legendary_default_treasure": {
-    "criteria": {
-      "obtainchest": "2023-11-27 14:22:37 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/building_blocks/glass": {
     "criteria": {
       "has_smelts_to_glass": "2023-11-30 14:52:37 +0000"
@@ -4324,41 +4198,11 @@
     },
     "done": true
   },
-  "mt:treasure_advancements/25_common_treasure": {
-    "criteria": {
-      "obtainchest": "2023-11-30 15:03:57 +0000"
-    },
-    "done": true
-  },
-  "mt:treasure_advancements/10_rare_treasure": {
-    "criteria": {
-      "obtainchest": "2023-11-30 15:05:49 +0000"
-    },
-    "done": true
-  },
-  "mt:treasure_advancements/first_epic_treasure": {
-    "criteria": {
-      "obtainchest": "2023-11-30 15:19:47 +0000"
-    },
-    "done": true
-  },
-  "mt:treasure_advancements/first_epic_taiga_treasure": {
-    "criteria": {
-      "obtainchest": "2023-11-30 15:19:50 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/misc/black_dye_from_wither_rose": {
     "criteria": {
       "has_wither_rose": "2023-11-30 15:19:55 +0000"
     },
     "done": true
-  },
-  "mt:entity_hit_system/on_hit": {
-    "criteria": {
-      "not_target": "2023-11-30 15:25:06 +0000"
-    },
-    "done": false
   },
   "DataVersion": 3465
 }
